@@ -1,1 +1,2 @@
 # THE-BLOG
+It is a front-end web application that includes a navigation bar, headers, sections for blog posts and blog Details section, and a footer.Its a fully working web application that contains various information on different topics in the form of the blogs containing attractive images and providing knowledge to the curious ones . The languages used in this are html , css and javascript only.
