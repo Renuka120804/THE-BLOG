@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Your Name</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <input type="checkbox" id="toggle" checked>
+            <label for="toggle">
+                <span class="circle"></span>
+                <span class="moon">&#x1F319;</span>
+            </label>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Recent Blog Posts Sidebar -->
+        <aside class="recent-posts">
+            <h2>Recent blog posts</h2>
+            <div class="post-item">
+                <a href="blog-details1.html?post=2">
+                    <img src="Image/Image.svg" alt="UX review presentations">
+                    <p>UX review presentations</p>
+                    <p>Sunday, 1 Jan 2023</p>
+                </a>
+            </div>
+            <!-- Add more recent posts here -->
+            <div class="post-item">
+                <a href="blog-details2.html?post=2">
+                    <img src="Image/Image-2.svg" alt="Building your API Stack">
+                    <p>Building your API Stack</p>
+                    <p>March 1, 2023 | Development</p>
+                </a>
+            </div>
+            <div class="post-item">
+                <a href="blog-details3.html?post=2">
+                    <img src="Image/Image-3.svg" alt="Climate change impacts">
+                    <p>Climate change impacts</p>
+                    <p>Feb 28, 2023 | Environment</p>
+                </a>
+            </div>
+            <div class="post-item">
+                <a href="blog-details.html?post=2">
+                    <img src="Image/Image-12.svg" alt="Grid system for better design user interface">
+                    <p>Grid system for better design user interface</p>
+                    <p>Feb 26, 2023 | UI/UX</p>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Blog Details Section -->
+        <section class="blog-details">
+            <h1 id="post-title">UX review presentations</h1>
+            <p id="post-date">Sunday, 1 Jan 2023</p>
+            <img id="post-image" src="Image/Image.svg" alt="">
+            <div id="post-content">
+                <p>UX review presentations are a crucial component of the user experience design process. They involve presenting the findings, insights, and recommendations from a UX evaluation to stakeholders, including designers, developers, and product managers. These presentations aim to communicate the effectiveness of the user interface, identify areas for improvement, and gain buy-in for design changes. By effectively conveying the user perspective, UX review presentations can help teams make informed decisions and create products that truly meet the needs and expectations of their target audience.
+                </p>
+                <!-- Add more blog content here -->
+                <img src="Image/Image-2.svg" alt="UX review presentations">
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+            <a href="#">RSS</a>
+        </div>
+        <p>&copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
